@@ -1,0 +1,40 @@
+### sign up
+POST http://localhost:3333/auth/local/signup
+Content-Type: application/json
+
+{
+   "email": "yassir@test.com",
+   "password": "123456"
+}
+
+### sign in
+POST http://localhost:3333/auth/local/signin
+Content-Type: application/json
+
+{
+   "email": "test@test.com",
+   "password": "123456"
+}
+
+### sign in
+POST http://localhost:3333/auth/local/signin
+Content-Type: application/json
+
+{
+   "email": "yassir@test.com",
+   "password": "123456"
+}
+
+### sign out
+POST http://localhost:3333/auth/local/logout
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjksImVtYWlsIjoieWFzc2lyQHRlc3QuY29tIiwiaWF0IjoxNjc0OTQ3Mzk2LCJleHAiOjE2NzQ5NDgyOTZ9.xJzQxSeM8SGk5X7RPxitw2zmBuOxD_CnB_XjA4aSDNM
+
+{}
+
+### refresh token
+POST http://localhost:3333/auth/local/refresh
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjksImVtYWlsIjoieWFzc2lyQHRlc3QuY29tIiwiaWF0IjoxNjc0OTQ3Mzk2LCJleHAiOjE2NzUwOTg1OTZ9.Xzz5GVXndTGtB8aaiXYxQQgD_kwL1CsOVl9GiwutRdY
+
+{}
