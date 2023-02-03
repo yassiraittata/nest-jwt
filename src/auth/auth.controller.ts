@@ -36,7 +36,7 @@ export class AuthController {
   @HttpCode(HttpStatus.OK)
   logout(@CurrentUser('sub') userId: number) {
     console.log(userId);
-    return this.authService.logout(+userId);
+    return this.authService.logout(userId);
   }
 
   @Public()

@@ -1,6 +1,7 @@
 # compiled output
 /dist
 /node_modules
+/src/prisma/prisma.service.ts
 
 # Logs
 logs
@@ -13,6 +14,7 @@ lerna-debug.log*
 
 # OS
 .DS_Store
+.env
 
 # Tests
 /coverage
